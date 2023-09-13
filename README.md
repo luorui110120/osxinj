@@ -14,3 +14,7 @@ Notes
 -----
 
 - Build with scheme `BuildAll`
+
+需要将 bootstrap 编译先编译出来, 放到 osxinj 同一个目录,然后再通过
+
+./osxinj <procename> <libpath>   //来实现进程的注入;
